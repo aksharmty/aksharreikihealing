@@ -25,12 +25,12 @@
         
         <!-- Modernizr -->
         <script src="assets/js/modernizr-2.6.2.min.js"></script>
-
+        <script src="w3.js"></script>
 
     </head>
 
     <body>
-<?php include"header.php"?>
+<div w3-include-html="menu.html"></div> 
        <div class="section-home our-causes">
 
         <div class="container">
@@ -63,7 +63,7 @@
                           -->
                           <p style="color:blue;">Appointment Fee : &#8377; 1100 per session</p>
                           <div class="btn-holder text-center"><br>
-                          <a href="appointment.php" class="btn btn-primary" >Book Appointment Now</a>
+                          <a href="contact.html" class="btn btn-primary" >Book Appointment Now</a>
                         </div>
 <br><br>
                         </div>
@@ -98,7 +98,7 @@
                           -->
                           <p style="color:blue;">Appointment Fee : &#8377; 1100 per session</p>
                           <div class="btn-holder text-center"><br>
-                          <a href="appointment.php" class="btn btn-primary" >Book Appointment Now</a>
+                          <a href="contact.html" class="btn btn-primary" >Book Appointment Now</a>
                         </div>
 <br><br>
                         </div>
@@ -133,7 +133,7 @@
                           -->
                           <p style="color:blue;">Appointment Fee : &#8377; 1100 per session</p>
                           <div class="btn-holder text-center"><br>
-                          <a href="appointment.php" class="btn btn-primary" >Book Appointment Now</a>
+                          <a href="contact.html" class="btn btn-primary" >Book Appointment Now</a>
                         </div>
 <br><br>
                         </div>
@@ -167,7 +167,7 @@
                           -->
                           <p style="color:blue;">Appointment Fee : &#8377; 1100 per session</p>
                           <div class="btn-holder text-center"><br>
-                          <a href="appointment.php" class="btn btn-primary" >Book Appointment Now</a>
+                          <a href="contact.html" class="btn btn-primary" >Book Appointment Now</a>
                         </div>
 <br><br>
                         </div>
@@ -201,7 +201,7 @@
                           -->
                           <p style="color:blue;">Appointment Fee : &#8377; 1100 per session</p>
                           <div class="btn-holder text-center"><br>
-                          <a href="appointment.php" class="btn btn-primary" >Book Appointment Now</a>
+                          <a href="contact.html" class="btn btn-primary" >Book Appointment Now</a>
                         </div>
 <br><br>
                         </div>
@@ -218,22 +218,69 @@
 </div>
                 <div class="col-md-3 col-sm-6">
 
-                   <?php include "sidebar.php" ?>
+                  <div w3-include-html="sidebar.html"></div> 
 
-                </div>
+               </div>
+			</div> <!-- /.row -->
 
-            </div>
-
-        </div>
-        
-    </div> <!-- /.our-causes -->
+			<div class="section-home about-us">
 
 
+			            <div class="row">
+
+			                
+
+			                
+
+			                
+
+			                
+			            </div> <!-- /.row -->
+
+			      
+			    </div> 
+
+		</div> <!-- /.about-us -->
+
+
+	
+	        </div>
+
+	   
+
+
+          <footer class="main-footer">
+<div w3-include-html="footer.html"></div> 
+<!--  Scripts
+    ================================================== -->
+
+    <!-- jQuery -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.11.1.min.js"><\/script>')</script>
+
+    <!-- Bootsrap javascript file -->
+    <script src="assets/js/bootstrap.min.js"></script>
     
+    <!-- owl carouseljavascript file -->
+    <script src="assets/js/owl.carousel.min.js"></script>
 
+    <!-- Template main javascript -->
+    <script src="assets/js/main.js"></script>
+   
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-38372424-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    <footer class="main-footer">
-<?php include"footer.php"?>
+  gtag('config', 'UA-38372424-2');
+</script>
+		  
 
-    </body>
+<script>
+w3.includeHTML();
+</script>
+</footer>
+</body>
 </html>
