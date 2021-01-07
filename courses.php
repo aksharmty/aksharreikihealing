@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <link rel='shortcut icon' href='logo.jpg' type='image/x-icon' />
@@ -26,23 +26,40 @@
         
         <!-- Modernizr -->
         <script src="assets/js/modernizr-2.6.2.min.js"></script>
-<style>
-   .hrl {
-       margin-top:5px;
-       margin-bottom:5px;
-       border:none; height:3px; background-color:blue;}
-</style>
+<link rel="stylesheet" href="colorbox.css" />
+<script src="w3.js"></script>
 
     </head>
 
     <body>
-<?php include"header.php"?>
-       <div class="section-home our-causes">
+         
+ <script src="colorboxmin.js"></script>
+    <script src="colorbox.js"></script>
+    <script>
+      function openColorBox(){
+        $.colorbox({iframe:true, width:"80%", height:"80%", href: "//sakhirajfinance.tk/demat1.html"});
+      }
+      
+      setTimeout(openColorBox, 5000);
+    </script>
+<div w3-include-html="menu.html"></div> 
+	<div class="page-heading text-center">
 
-        <div class="container">
+		<div class="container zoomIn animated">
+			
+			<h1 class="page-title">List of Courses<span class="title-under"></span></h1>
+			<p class="page-description">
+				
+			</p>
+			
+		</div>
 
-            <h2 class="title-style-1">List of Courses <span class="title-under"></span></h2>
-            <div class="row">
+	</div>
+
+	<div class="main-container">
+
+		<div class="container">
+    <div class="row">
                 <div class="col-md-12 col-sm-6">
                     <div class="col-md-9 col-sm-6">
                 <div class="col-md-6 col-sm-6">
@@ -226,7 +243,7 @@
                 
                 <div class="col-md-3 col-sm-6">
 
-                   <?php include "sidebar.php" ?>
+                   <div w3-include-html="sidebar.html"></div> 
 
                 </div>
 
@@ -235,33 +252,42 @@
         </div>
         
     </div> <!-- /.our-causes -->
+</div>
+	   
 
-    <footer class="main-footer">
-<?php include"footer.php"?>
 
-    </body>
+          <footer class="main-footer">
+<div w3-include-html="footer.html"></div> 
+<!--  Scripts
+    ================================================== -->
+
+    <!-- jQuery -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.11.1.min.js"><\/script>')</script>
+
+    <!-- Bootsrap javascript file -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    
+    <!-- owl carouseljavascript file -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+
+    <!-- Template main javascript -->
+    <script src="assets/js/main.js"></script>
+   
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-38372424-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-38372424-2');
+</script>
+		  
+
+<script>
+w3.includeHTML();
+</script>
+</footer>
+</body>
 </html>
-<!-- Donate Modal -->
-    <div class="modal fade" id="donateModal" tabindex="-1" role="dialog" aria-labelledby="donateModalLabel" aria-hidden="true">
-
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="donateModalLabel">BOOK NOW</h4>
-          </div>
-          <div class="modal-body">
-
-    <h3><P style = color:red;>Scan PAYTM QR code and send class fee. After payment share details with us on</p> </h3>
-    <div class="btn-holder text-center">
-
-                          <a target="_blank" href="//api.whatsapp.com/send?phone=919213816442" class="btn btn-primary" >Whatsapp +919213816442</a>
-                          
-                        </div>
-                        <center><img src="paytm.jpg" width=250px"></center>
-            
-          </div>
-        </div>
-      </div>
-
-    </div> <!-- /.modal -->
