@@ -1,2 +1,0 @@
-<center><h1>Advertisement</h1></center>
-<iframe data-aa="1047743" src="//ad.a-ads.com/1047743?size=300x250" scrolling="no" style="width:300px; height:250px; border:0px; padding:0; overflow:hidden" allowtransparency="true"></iframe>
